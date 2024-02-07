@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9fafe;
+            color: #333; 
+        }
+
+        header {
+            background-color: #5c48ee;
+            padding: 5px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav_logo a {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .nav_links {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .link a {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 50px; 
+        }
+
+        .image-grid {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .image-grid img {
+            width: 30%; 
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #5c48ee;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav_logo">
+            <a href="#">Naomi</a>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li class="link"><a href="Login.jsp">Login</a></li>
+                <li class="link"><a href="StudentAdmission.jsp">Admission</a></li>
+                <li class="link"><a href="trial.jsp">Conversion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Education on New Technologies</h2>
+       
+        <div class="image-grid">
+            <img src="nic1.jpg" alt="Image 1">
+            <img src="nic2.jpg" alt="Image 2">
+            <img src="nic3.jpg" alt="Image 3">
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Naome. All rights reserved.
+    </footer>
+
+</body>
+</html>
